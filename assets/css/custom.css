@@ -1,0 +1,273 @@
+.autlv {
+  font-size: 10px;
+  color: #fff;
+  display: inline-block;
+  vertical-align: text-top;
+  font-weight: normal;
+  border-radius: 2px;
+  line-height: 1.4;
+  padding: 0 4px;
+  margin-left: 5px;
+  letter-spacing: 0px;
+}
+
+.aut-0 {
+  background: #d1d5dc;
+}
+
+.aut-1 {
+  background: #448EF6;
+}
+
+.aut-2 {
+  background: #f6b044;
+}
+
+.aut-3 {
+  background: #c444f6;
+}
+
+.aut-4 {
+  background: #f69644;
+}
+
+.aut-5 {
+  background-image: -webkit-linear-gradient(0deg, #3ca5f6 0%, #a86af9 100%);
+}
+
+.aut-6 {
+  background: #f64444;
+}
+.aside-hunter-authors {
+  background: var(--background);
+  margin-bottom: 15px;
+}
+.aside-hunter-authors .vs {
+  border-radius: 100%;
+}
+.aside-hunter-authors ul {
+  padding: 14px;
+  list-style: none;
+  line-height: 2.5;
+}
+.aside-hunter-authors .item {
+  border-bottom: 1px dashed #eee;
+  margin-bottom: 0px;
+  position: relative;
+  padding-bottom: 4px;
+}
+.aside-hunter-authors .item .hunter-avatar {
+  float: left;
+  line-height: 55px;
+}
+.aside-hunter-authors .item .hunter-avatar .vatar {
+  position: relative;
+}
+.aside-hunter-authors .item .hunter-avatar .vatar img {
+  width: 45px;
+  border-radius: 100%;
+}
+.aside-hunter-authors .item .hunter-avatar .vatar .va_v_honor {
+  position: absolute;
+  bottom: 3px;
+  right: 0px;
+  width: 18px;
+  height: 18px;
+}
+.aside-hunter-authors .item .item-main {
+  min-height: 60px;
+  margin-left: 60px;
+  color: #393939;
+}
+.aside-hunter-authors .item .item-main h4 {
+  font-size: 12px;
+  line-height: 1;
+  margin-bottom: 7px;
+  font-weight: normal;
+  color: #999;
+}
+.aside-hunter-authors .item .item-main h4 i {
+  font-style: normal;
+  color: #aaa;
+  margin: 0 5px;
+}
+.haibao-shade {
+    background: grey;
+    z-index: 20;
+    opacity: 0.6;
+    position: fixed;
+    pointer-events: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: opacity .25s linear;
+}
+@-webkit-keyframes ball-spin-fade-loader {
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes ball-spin-fade-loader {
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+.ball-spin-fade-loader {
+  position: relative;
+  left: calc(50% - 25px);
+  top: calc(50% - 25px);
+}
+.ball-spin-fade-loader_title {
+  position: relative;
+  left: calc(50% - 50px);
+  top: calc(55% - 15px);
+}
+.ball-spin-fade-loader > div:nth-child(1) {
+  top: 25px;
+  left: 0;
+  -webkit-animation: ball-spin-fade-loader 1s 0s infinite linear;
+          animation: ball-spin-fade-loader 1s 0s infinite linear;
+}
+.ball-spin-fade-loader > div:nth-child(2) {
+  top: 17.04545px;
+  left: 17.04545px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.12s infinite linear;
+          animation: ball-spin-fade-loader 1s 0.12s infinite linear;
+}
+.ball-spin-fade-loader > div:nth-child(3) {
+  top: 0;
+  left: 25px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.24s infinite linear;
+          animation: ball-spin-fade-loader 1s 0.24s infinite linear;
+}
+.ball-spin-fade-loader > div:nth-child(4) {
+  top: -17.04545px;
+  left: 17.04545px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.36s infinite linear;
+          animation: ball-spin-fade-loader 1s 0.36s infinite linear;
+}
+.ball-spin-fade-loader > div:nth-child(5) {
+  top: -25px;
+  left: 0;
+  -webkit-animation: ball-spin-fade-loader 1s 0.48s infinite linear;
+          animation: ball-spin-fade-loader 1s 0.48s infinite linear;
+}
+.ball-spin-fade-loader > div:nth-child(6) {
+  top: -17.04545px;
+  left: -17.04545px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.6s infinite linear;
+          animation: ball-spin-fade-loader 1s 0.6s infinite linear;
+}
+.ball-spin-fade-loader > div:nth-child(7) {
+  top: 0;
+  left: -25px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.72s infinite linear;
+          animation: ball-spin-fade-loader 1s 0.72s infinite linear;
+}
+.ball-spin-fade-loader > div:nth-child(8) {
+  top: 17.04545px;
+  left: -17.04545px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.84s infinite linear;
+          animation: ball-spin-fade-loader 1s 0.84s infinite linear;
+}
+.ball-spin-fade-loader > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  position: absolute;
+}
+.haibao {
+    width: 42px;
+    height: 42px;
+    background-color: #f56c6c;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#909399;
+    font-size:12px
+}
+.haibao:hover {
+    background-color: #409eff;
+}
+.article-poster {
+    position:absolute;z-index:999;
+}
+/*弹出*/
+.footer_flex { 
+    width: 42px; 
+    height: 42px; 
+    background-color: #f56c6c; 
+    border-radius: 50%; 
+    cursor: pointer; 
+    position: relative; 
+    z-index: 10; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color:#909399; 
+    font-size:12px;
+}
+.footer_flex:hover { 
+    background-color: #409eff;
+}
+/*top*/
+.footer_flex:hover .flex-footer { 
+    display: block; 
+}
+.footer_flex .flex-footer {
+    box-shadow: 0px 0px 5px 0px #409eff;
+    border-radius: 8px; 
+    width: 156px;
+    height: 166px; 
+    position: absolute; 
+    left: -52px; top: -175px; 
+    text-align: center; 
+    padding-top: 15px; 
+    background: #fff; 
+    display: none; 
+}
+.flex-footer input{
+    vertical-align:middle; 
+    margin-bottom:3px; 
+    *margin-bottom:3px;
+}
+
+
+
+/*头像呼吸光环和鼠标悬停旋转放大*/
+.avatar {
+    border-radius: 50%;
+    animation: light 4s ease-in-out infinite;
+    transition: 0.5s;
+}
+.avatar:hover {
+    transform: scale(1.15) rotate(720deg);
+}
+@keyframes light {
+    0%{box-shadow: 0 0 4px #f00;}
+    25%{box-shadow: 0 0 16px #0f0;} 
+    50%{box-shadow: 0 0 4px #00f;}
+    75%{box-shadow: 0 0 16px #0f0;} 
+    100%{box-shadow: 0 0 4px #f00;}
+}
